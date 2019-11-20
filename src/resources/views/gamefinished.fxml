@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane id="gamefinished" prefHeight="480.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="game.controllers.GameFinishedController">
+    <ImageView pickOnBounds="true" preserveRatio="true">
+        <image>
+            <Image url="@../images/GameFinished.png" />
+        </image>
+    </ImageView>
+    <Button id="playAgainButton" contentDisplay="CENTER" layoutX="248.0" layoutY="413.0" onAction="#playAgain" prefHeight="31.0" prefWidth="103.0" text="Back to the Menu!" />
+</Pane>

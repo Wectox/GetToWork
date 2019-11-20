@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="GetToWork:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/GetToWork_jar</output-path>
+    <root id="archive" name="GetToWork.jar">
+      <element id="module-output" name="GetToWork" />
+    </root>
+  </artifact>
+</component>
